@@ -68,7 +68,7 @@ public class SimpleTimeLimiterTest extends TestCase {
     assertTheCallTookBetween(start, DELAY_MS, ENOUGH_MS);
   }
 
-  public void testGoodCallableWithNotEnoughTime() throws Exception {
+  public void tesGoodCallableWithNotEnoughTime() throws Exception {
     long start = System.nanoTime();
     try {
       service.callWithTimeout(
@@ -84,7 +84,7 @@ public class SimpleTimeLimiterTest extends TestCase {
     assertTheCallTookBetween(start, NOT_ENOUGH_MS, DELAY_MS);
   }
 
-  public void testBadCallableWithEnoughTime() throws Exception {
+  public void tesBadCallableWithEnoughTime() throws Exception {
     long start = System.nanoTime();
     try {
       service.callWithTimeout(
