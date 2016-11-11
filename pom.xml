@@ -62,7 +62,6 @@
   </ciManagement>
   <modules>
     <module>guava</module>
-    <module>guava-tests</module>
   </modules>
   <build>
     <!-- Handle where Guava deviates from Maven defaults -->
